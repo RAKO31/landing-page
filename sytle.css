@@ -89,11 +89,13 @@ img{
     display: flex;
     flex-direction: row;
     justify-content: center;
+    text-align: center;
     gap: 16px;
+    flex-shrink:0 ;
 }
 
 .third{
-    background-color: grey;
+    background-color: #e5e7eb;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -102,11 +104,21 @@ img{
 }
 
 .fourth{
+    display: flex;
+    justify-content: center;
+}
+
+.insidebox{
+    height: auto;
+    width:1400px;
     background-color: #3882f6;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    gap:32px;
+    gap:16px;
     padding: 40px 64px;
+    border-radius:16px ;
+    margin-top: 16px;
+    margin-bottom: 16px;
 }
